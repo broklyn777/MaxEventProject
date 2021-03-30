@@ -13,7 +13,7 @@ const DUMMY_EVENTS = [
     id: 'e2',
     title: 'Networking for introverts',
     description:
-      "We know: Networking is no fun if you are an introvert person. That's why we came up with this event - it'll be so much easier. Promised!",
+      " Hej, jag heter Björn. Jag är en Fullstack Developer och utvecklare av mjukvara. Du kan kontakta mig på twitter. We know: Networking is no  fun if you are an introvert person. That's why we came up with this event - it'll be so much easier. Promised!",
     location: 'New Wall Street 5, 98765 New Work',
     date: '2021-05-30',
     image: 'images/introvert-event.jpg',
@@ -29,6 +29,26 @@ const DUMMY_EVENTS = [
     image: 'images/extrovert-event.jpg',
     isFeatured: true,
   },
+   {
+    id: 'e4',
+    title: 'Målarkurs med Hanna',
+    description:
+      'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
+    location: 'BarkbridgeStreet 12, 10115 Broke City',
+    date: '2022-08-14',
+    image: 'images/hanna-teckning.jpg',
+    isFeatured: true,
+  },
+  {id: 'e5',
+    title: 'Programming for everyone',
+    description:
+      'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
+    location: 'My Street 12, 10115 Broke City',
+    date: '2022-08-14',
+    image: 'images/coding-event.jpg',
+    isFeatured: true,
+  },
+  
 ];
 
 export function getFeaturedEvents() {
